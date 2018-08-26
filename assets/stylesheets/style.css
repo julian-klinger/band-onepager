@@ -1,8 +1,5 @@
 body {
   position: relative;
-  background: url(../images/background-fur3.jpg) center center no-repeat #7f553d;
-  background-size: cover;
-  background-attachment: fixed;
   font-family: "Just a Bear", arial;
   color: white;
 }
@@ -17,39 +14,51 @@ a:hover {
   text-decoration: underline;
 }
 
-main {
-  max-width: 1300px;
-  top: 0;
+.fixed-top {
+  right: auto !important;
+  left: -1px;
+  top: -1px;
 }
 
 .navbar-dark {
-  width: 100%;
-  position: fixed;
-  background-color: rgba(18, 26, 40, 1);
-  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 1) !important;
+}
+.fa-bars {
+  font-size: 3em;
+  color: rgba(255, 255, 255, 1);
+}
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+.fa-angle-left, .fa-angle-right {
+  color: #f09f09;
+  font-size: 4em;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+  font-size: 1.4em;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, .7) !important;
+}
+.navbar-dark .navbar-nav .nav-link:visited {
+  color: rgba(255, 255, 255, .7) !important;
+}
+.arrow {
+  font-size: 3em;
+  color: #f09f09;
+  padding-bottom: 10px;
 }
 
-.navbar-dark .nav-link:hover,
-.navbar-dark .nav-link:focus {
-  background-color: rgba(96, 104, 120, .5);
-  font-size: 1.05em;
-  text-decoration: none;
-}
-
-.nav-link {
-  padding-bottom: 15px;
-  padding-top: 12px;
-  color: white !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
-
-.nav-link.active {
-  background-color: rgba(96, 104, 120, .5);
-}
 
 .splash {
   min-height: 100vh;
+  background: url(../images/background-fur3.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .splash h1, h2 {
@@ -85,7 +94,7 @@ main {
   text-decoration: none;
 }
 
-.splash .fa-facebook {
+.splash .fa-facebook-f {
   background: #3B5998;
   text-decoration: none;
 }
@@ -94,12 +103,25 @@ main {
   background: #ff0000;
 }
 
+.media {
+  background: url(../images/halbfinale5.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .media .embed-soundcloud {
   margin-top: 5%;
 }
 
 .live {
-  background-color: rgba(18, 26, 40, .7);
+  min-height: 100vh;
+  background: url(../images/landesfinale4.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.backdrop {
+  background-color: rgba(117, 68, 7, .8);
   font-size: 1.2em;
 }
 
@@ -133,3 +155,11 @@ main {
   color: rgba(255, 255, 255, .6);
 }
 
+
+
+.kontakt {
+  min-height: 100vh;
+  background: url(../images/halbfinale1.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
+}
