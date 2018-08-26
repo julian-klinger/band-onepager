@@ -1,0 +1,135 @@
+body {
+  position: relative;
+  background: url(../images/background-fur3.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Just a Bear", arial;
+  color: white;
+}
+
+a,
+a:hover,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1300px;
+  top: 0;
+}
+
+.navbar-dark {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(18, 26, 40, 1);
+  font-size: 1.1em;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  background-color: rgba(96, 104, 120, .5);
+  font-size: 1.05em;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding-bottom: 15px;
+  padding-top: 12px;
+  color: white !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.nav-link.active {
+  background-color: rgba(96, 104, 120, .5);
+}
+
+.splash {
+  min-height: 100vh;
+}
+
+.splash h1, h2 {
+  text-shadow: 2px 2px 1px black;
+}
+
+.splash h1 {
+  font-size: 9em;
+}
+
+.splash h2 {
+  font-size: 40px;
+}
+
+.splash .buttons {
+}
+
+.splash span {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  opacity: .6;
+}
+
+.splash span:hover {
+  opacity: 1;
+}
+
+.splash a {
+  text-decoration: none;
+}
+
+.splash .fa-facebook {
+  background: #3B5998;
+  text-decoration: none;
+}
+
+.splash .fa-youtube {
+  background: #ff0000;
+}
+
+.media .embed-soundcloud {
+  margin-top: 5%;
+}
+
+.live {
+  background-color: rgba(18, 26, 40, .7);
+  font-size: 1.2em;
+}
+
+.live h2 {
+  text-shadow: none;
+  font-size: 2.1em;
+  padding-top: 30px;
+}
+
+.live .table td {
+  padding: 1rem .25rem;
+}
+
+.live td:first-child,
+.live td:last-child {
+  width: 50px;
+}
+
+.table td {
+  border-top: 0;
+}
+
+.live p {
+  font-family: 'roboto';
+  font-size: .95em;
+}
+
+
+.line-through {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, .6);
+}
+
