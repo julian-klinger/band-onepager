@@ -1,17 +1,21 @@
 body {
   position: relative;
   font-family: "Just a Bear", arial;
-  color: white;
 }
 
 a,
 a:hover,
 a:visited {
-  color: white;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.media h2 {
+  font-size: 3em;
+  color: white;
 }
 
 .fixed-top {
@@ -21,48 +25,51 @@ a:hover {
 }
 
 .navbar-dark {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 800;
-  color: rgba(255, 255, 255, 1) !important;
 }
 .fa-bars {
-  font-size: 3em;
-  color: rgba(255, 255, 255, 1);
+  font-size: 2em;
 }
+
+.active {
+  color: red !important;
+}
+
 .navbar-dark .navbar-toggler {
   border-color: transparent;
-}
+}/*
 .fa-angle-left, .fa-angle-right {
   color: #f09f09;
   font-size: 4em;
-}
+}*/
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1) !important;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(255, 255, 255, .7) !important;
 }
 .navbar-dark .navbar-nav .nav-link:visited {
-  color: rgba(255, 255, 255, .7) !important;
 }
 .arrow {
   font-size: 3em;
-  color: #f09f09;
+  color: white !important;
   padding-bottom: 10px;
+  text-shadow: 0 0 3px black;
 }
-
+.arrow:hover {
+  text-decoration: none !important;
+}
 
 .splash {
   min-height: 100vh;
-  background: url(../images/background-fur3.jpg) center center no-repeat #7f553d;
+  background: url(../images/landesfinale3.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.splash h1, h2 {
+.logo {
   text-shadow: 2px 2px 1px black;
+  color: white;
 }
 
 .splash h1 {
@@ -73,9 +80,6 @@ a:hover {
   font-size: 40px;
 }
 
-.splash .buttons {
-}
-
 .splash span {
   padding: 20px;
   font-size: 30px;
@@ -83,7 +87,9 @@ a:hover {
   border-radius: 50%;
   text-decoration: none;
   margin: 5px 2px;
-  opacity: .6;
+  opacity: .9;
+  box-shadow: 0 0 6px rgba(50, 50, 50, .9);
+  color: white;
 }
 
 .splash span:hover {
@@ -104,7 +110,7 @@ a:hover {
 }
 
 .media {
-  background: url(../images/halbfinale5.jpg) center center no-repeat #7f553d;
+  background: url(../images/Landesfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -115,24 +121,24 @@ a:hover {
 
 .live {
   min-height: 100vh;
-  background: url(../images/landesfinale4.jpg) center center no-repeat #7f553d;
+  background: url(../images/halbfinale4.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .backdrop {
-  background-color: rgba(117, 68, 7, .8);
-  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
 }
 
-.live h2 {
-  text-shadow: none;
-  font-size: 2.1em;
+h2 {
+  font-size: 3em;
   padding-top: 30px;
 }
 
 .live .table td {
   padding: 1rem .25rem;
+  font-size: 1.1em;
 }
 
 .live td:first-child,
@@ -146,20 +152,26 @@ a:hover {
 
 .live p {
   font-family: 'roboto';
-  font-size: .95em;
 }
-
 
 .line-through {
   text-decoration: line-through;
-  color: rgba(255, 255, 255, .6);
+  color: rgba(0, 0, 0, .3);
 }
-
-
 
 .kontakt {
   min-height: 100vh;
   background: url(../images/halbfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
+}
+
+footer {
+  color: white !important;
+  text-shadow: 0 0 6px black;
+  font-size: 1.1em;
+}
+
+footer a {
+  color: white !important;
 }
