@@ -1,6 +1,7 @@
 body {
   position: relative;
   font-family: "Just a Bear", arial;
+  text-align: center;
 }
 
 a,
@@ -30,10 +31,6 @@ a:hover {
 }
 .fa-bars {
   font-size: 2em;
-}
-
-.active {
-  color: red !important;
 }
 
 .navbar-dark .navbar-toggler {
