@@ -1,7 +1,10 @@
+html, body {
+  width: 100%;
+}
+
 body {
   position: relative;
   font-family: "Just a Bear", arial;
-  text-align: center;
 }
 
 a,
@@ -14,27 +17,44 @@ a:hover {
   text-decoration: underline;
 }
 
-.media h2 {
-  font-size: 3em;
-  color: white;
+h2 {
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.fixed-top {
-  right: auto !important;
-  left: -1px;
-  top: -1px;
+.navbar-collapse {
+  background-color: rgba(0, 0, 0, 1);
+  text-align: left;
+  margin: 0px 80% 0 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-transform: uppercase;
+
+}
+.fa-bars {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 10px;
+  margin-bottom: 0;
 }
 
 .navbar-dark {
-  font-size: 1em;
-  font-weight: 800;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-shadow: 0 0 2px black;
+  text-align: right;
 }
 .fa-bars {
   font-size: 2em;
+  color: white;
+  text-shadow: 0 0 3px black;
 }
 
 .navbar-dark .navbar-toggler {
   border-color: transparent;
+  background-color: transparent !important;
 }/*
 .fa-angle-left, .fa-angle-right {
   color: #f09f09;
@@ -58,7 +78,7 @@ a:hover {
 }
 
 .splash {
-  min-height: 100vh;
+  height: 100vh;
   background: url(../images/landesfinale3.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
@@ -75,6 +95,9 @@ a:hover {
 
 .splash h2 {
   font-size: 40px;
+  font-family: "Just a Bear", arial;
+  font-weight: 400;
+  text-transform: inherit;
 }
 
 .splash span {
@@ -107,7 +130,7 @@ a:hover {
 }
 
 .media {
-  background: url(../images/Landesfinale1.jpg) center center no-repeat #7f553d;
+  background: url(../images/landesfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -128,14 +151,9 @@ a:hover {
   color: black;
 }
 
-h2 {
-  font-size: 3em;
-  padding-top: 30px;
-}
-
 .live .table td {
-  padding: 1rem .25rem;
-  font-size: 1.1em;
+  padding: .2rem 0rem;
+  font-size: 1em;
 }
 
 .live td:first-child,
@@ -147,13 +165,19 @@ h2 {
   border-top: 0;
 }
 
-.live p {
-  font-family: 'roboto';
+.live {
+  font-family: 'Montserrat';
+  font-size: 1em;
+}
+
+.live .font-italic {
+  font-size: .8em;
 }
 
 .line-through {
   text-decoration: line-through;
   color: rgba(0, 0, 0, .3);
+  font-size: 1em;
 }
 
 .kontakt {
@@ -161,6 +185,8 @@ h2 {
   background: url(../images/halbfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Montserrat';
+  font-size: 1em;
 }
 
 footer {

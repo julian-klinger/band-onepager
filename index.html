@@ -16,38 +16,36 @@
      <!-- Ensure load priority to last -->
     <link rel="stylesheet" href="assets/stylesheets/responsive.css">
     <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>Just a Bear - Band</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
 
   </head>
-  <bodyclass="debug-off text-center">
-    
-
-    <nav id="justanavbar" class="fixed-top navbar navbar-expand-xl navbar-dark w-100 ">
-      <button class="ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class=""><i class="fa fa-bars"></i></span>
+  <body data-spy="scroll" data-target="#justanavbar" data-offset="0" class="debug-off text-center">
+    <nav id="justanavbar" class="navbar navbar-dark fixed-top p-0">
+      <button class="mb-0 pb-0 border-bottom-0 mr-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+        <span class=""><i class="px-3 fa fa-bars"></i></span>
       </button>
-      <div class="collapse navbar-collapse navbar-expand-xs" id="justanavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a id="nav-start" class="nav-link text-right" href="#splash" data-toggle="collapse" data-target=".navbar-collapse.show">Just a Bear</span></a>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav flex-column ml-auto">
+          <li class="nav-item">
+            <a class="nav-link pl-3" href="#splash">Home</a>
           </li>
           <li class="nav-item">
-            <a id="nav-angebot" class="nav-link text-right" href="#media" data-toggle="collapse" data-target=".navbar-collapse.show">Musik</span></a>
+            <a class="nav-link pl-3" href="#media">Musik</a>
           </li>
           <li class="nav-item">
-            <a id="nav-portfolio" class="nav-link text-right" href="#live" data-toggle="collapse" data-target=".navbar-collapse.show">Live</a>
+            <a class="nav-link pl-3" href="#live">Live</a>
           </li>
           <li class="nav-item">
-            <a id="nav-kontakt" class="nav-link text-right" href="#kontakt" data-toggle="collapse" data-target=".navbar-collapse.show">Kontakt</a>
+            <a class="nav-link pl-3" href="#kontakt">Kontakt</a>
           </li>
         </ul>
-      </div>
+      </div> 
     </nav>
 
-    <main data-spy="scroll" data-target="#justanavbar" data-offset="0" >
+    <main>
       <section id="splash" class="splash p5-5 d-flex flex-column justify-content-between">
         <div class="row align-self-center">
           <div class="col-12">
@@ -76,35 +74,37 @@
 
       <section id="media" class="media p5-5 d-flex flex-column justify-content-between">
         <div class="row align-self-center">
-          <div class="col-12 my-5">
+          <div class="col-12 mb-5">
           </div>
         </div>
-        <div class="row align-self-center container">
-          <div class="col-12 px-0 col-md-10 col-lg-7 mx-auto px-0">      
-            <div class="backdrop">
-              <img class="img-fluid" src="assets/images/ep_cover.png">
-              <div class="py-3">
-                <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/itunes.jpg"></a>
-                <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/amazon-logo.png"></a>
-                <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/google-play_logo.png"></a>
-                <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/spotify_logo.png"></a>
+          <div class="container">
+          <div class="row align-self-start">
+            <div class="col-12 px-0 col-md-10 col-lg-7 col-xl-5 mx-auto px-0">    
+              <div class="backdrop">
+                <img class="img-fluid" src="assets/images/ep_cover.png">
+                <div class="py-3">
+                  <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/itunes.jpg"></a>
+                  <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/amazon-logo.png"></a>
+                  <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/google-play_logo.png"></a>
+                  <a href="#" target="_blank"><img class="img-fluid col-2" src="assets/images/Spotify_logo.png"></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-12 px-0 col-md-10 col-lg-7 mx-auto my-5">      
-            <div class="d-flex">
-              <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" allow="encrypted-media" height="250" width="100%" frameborder="0"></iframe>
-            </div>              
-          </div>
-          <div class="col-12 px-0 col-md-10 col-lg-7 mx-auto mb-5">      
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube.com/embed/AtntU7f2Zvo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="row align-self-center">
+            <div class="col-12 px-0 col-md-10 col-lg-7 col-xl-5 mx-auto my-5">      
+              <div class="d-flex">
+                <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" allow="encrypted-media" height="250" width="100%" frameborder="0"></iframe>
+              </div>              
             </div>
-          </div><!-- 
-          <div class="w-75 mx-auto mb-5">      
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube.com/embed/iQWfWk3b_T4" allow="autoplay; encrypted-media" allowfullscreen></iframe>              </div>
-          </div> -->
+          </div>
+          <div class="row align-self-center">
+            <div class="col-12 px-0 col-md-10 col-lg-7 col-xl-5 mx-auto mb-5">      
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/AtntU7f2Zvo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="row align-self-center">
           <div class="col-12">            
@@ -113,50 +113,61 @@
         </div>
       </section>
 
-      <section id="live" class="live p5-5 d-flex flex-column justify-content-between">
+      <section id="live" class="live d-flex flex-column justify-content-between">
         <div class="row align-self-center">
           <div class="col-12">
           </div>
         </div>
         <div class="row align-self-center">          
-          <div class="container ">
-            <div class="backdrop">          
-              <div class="mx-xl-5 p-1">
-                <h2 class="mt-xs-5">LIVE</h2>
-                <table class="table">
-                  <tr class="line-through">
-                    <td>Fr, 18.05.18</td>
-                    <td>Kneipengig feat. Rote Planeten, Oililio (Bremen)<!--  feat. <a href="https://www.facebook.com/MadameHauMichBlau/" target="_blank">Madame Haumichblau</a> --></td>
-                  </tr>
-                  <tr class="line-through">
-                    <td>Fr, 29.06.18</td>
-                    <td>Local Heroes - Halbfinale (Meisenfrei, Bremen)<!--  feat. <a href="https://www.facebook.com/MadameHauMichBlau/" target="_blank">Madame Haumichblau</a> --></td>
-                  </tr>
-                  <tr class="line-through">
-                    <td>Sa, 17.08.18</td>
-                    <td>Local Heroes - Landesfinale (Meisenfrei, Bremen)</td>
-                  </tr>
+          <div class="container">
+            <div class="backdrop p-4 px-5">          
+              <div class="mx-md-5 px-md-5 pt-3 pb-2">
+                <h2 class="mt-xs-5 mb-4">LIVE</h2>
+               
+                <div class="line-through"> 
+                  <span class="font-weight-bold">Fr, 29.06.18</span>
+                  <p>Local Heroes - Halbfinale (Meisenfrei, Bremen)</p>
+                </div>
+               
+                <div class="line-through"> 
+                  <span class="font-weight-bold">Sa, 17.08.18</span>
+                  <p>Local Heroes - Landesfinale (Meisenfrei, Bremen)</p>
+                </div>
+               
+                <div> 
+                  <span class="font-weight-bold">Fr, 28.09.18</span>
+                  <p><a href="https://www.facebook.com/events/2252616781627706/" target="_blank">Mit Star Chamber, Unplugged (Zollkantine, Bremen)</a></p>
+                </div>
+               
+                <div> 
+                  <span class="font-weight-bold">So, 07.10.18</span>
+                  <p><a href="https://www.bremen.de/kultur/veranstaltungen/highlights/vegefest" target="_blank">Vegefest, Solo-Bär (Straßenfest, Vegesack)</a></p>
+                </div>
+               
+                <div class="mb-4"> 
+                  <span class="font-weight-bold">Di, 11.12.18</span>
+                  <p><a href="http://diefriese.de/de/Jam_Cafe.html" target="_blank">Opening Jam Session, Full Band (Die Friese, Bremen)</a></p>
+                </div>
+                  
+       
+                  <!-- 
                   <tr>
-                    <td>So, 28.09.18</td>
-                    <td><a href="https://www.facebook.com/events/2252616781627706/" target="_blank">CD-Release von Star Chamber (Zollkantine, Bremen)</a></td>
-                  </tr><!-- 
-                  <tr>
-                    <td></td>
-                    <td>to be continued...</td>
-                    <td><a href="#" target="_blank"></a></td>
+                    <p></p>
+                    <p>to be continued...</p>
+                    <p><a href="#" target="_blank"></a></p>
                   </tr> -->
                   <!-- <tr>
-                    <td>15.07.18</td>
-                    <td>Bärenfestival</td>
-                    <td><a href="#" target="_blank">Mehr Infos</a></td>
+                    <p>15.07.18</p>
+                    <p>Bärenfestival</p>
+                    <p><a href="#" target="_blank">Mehr Infos</a></p>
                   </tr>
                   <tr>
-                    <td>30.08.18</td>
-                    <td>Wembleystadion</td>
-                    <td><a href="#" target="_blank">Mehr Infos</a></td>
+                    <p>30.08.18</p>
+                    <p>Wembleystadion</p>
+                    <p><a href="#" target="_blank">Mehr Infos</a></p>
                   </tr> -->
-                </table>
-                <p class="font-italic mx-3">Bären spielen gerne live und freuen sich immer über Auftritte. Wenn Ihr möchtet, dass wir in Eurem Wohnzimmer, Eurer Kneipe oder Eurem Club spielen, schreibt uns einfach an <a href="mailto:booking@justabear.de" target="_blank">booking@justabear.de</a>. Falls ihr noch einen Support-Act braucht oder mit uns gemeinsam ein Konzert organisieren wollt, schreibt uns auch einfach eine Mail. Wir freuen uns.</p>
+                <span class="font-italic"><strong>Solo-Bär</strong>: Ein Gesangsbär mit Gitarre, <strong>Unplugged</strong>: Ohne Schlagzeug, <strong>Full Band</strong>: Yeah, alle da.</span>
+                <!-- <p class="font-italic pt-3 mx-3">Bären spielen gerne live und freuen sich immer über Auftritte. Wenn Ihr möchtet, dass wir in Eurem Wohnzimmer, Eurer Kneipe oder Eurem Club spielen, schreibt uns einfach an <a href="mailto:booking@justabear.de" target="_blank">booking@justabear.de</a>.</p> -->
               </div>
            </div>
           </div>
@@ -176,10 +187,10 @@
         <div class="row align-self-center">
           <div class="col-12">
             <div class="container">          
-              <div class="backdrop">
+              <div class="backdrop p-4 ">
                 <div class="mx-xl-5 p-1">
                   <h2 class="mt-xs-5 mb-3">KONTAKT</h2>
-                  <p class="font-italic mx-3 mb-4">Wir freuen uns immer über Post :-). Schreibt uns einfach eine Mail an <a href="mailto:band@justabear.de" target="_blank">band@justabear.de</a> oder schickt uns eine Facebook-Nachricht an unsere <a href="http://www.facebook.de/justabear.band">Facebook-Seite</a>. Bis bald!</p>
+                  <p class="font-italic mx-3 mb-2">Wir freuen uns immer über Post an <a href="mailto:band@justabear.de" target="_blank">band@justabear.de</a> oder eine Facebook-Nachricht über unsere <a href="http://www.facebook.de/justabear.band">Facebook-Seite</a>. Wenn Ihr uns buchen möchtet, eine Support-Band sucht oder ein gemeinsames Konzert organisieren möchtet, schreibt einfach an <a href="mailto:booking@justabear.de" target="_blank">booking@justabear.de</a>. Bis bald!</p>
                 </div>
               </div>
             </div>
@@ -188,6 +199,9 @@
         <div class="row align-self-center">
           <div class="col-12">
             <footer class="py-3">
+              <p class="">
+                Wir bedanken uns ganz herzlich für die tollen Live-Fotos bei Sascha Schröder und local heroes!
+              </p>
               <p class="mb-0 mx-3 mt-2">
                 <a href="mailto:booking@justabear.de">booking@justabear.de</a>
                 <span> - </span>
@@ -197,7 +211,7 @@
                 <span> - </span>
                 <a href="mailto:info@justabear.de">Press-Kit, Tech-Rider auf Anfrage</a>
               </p>
-              <p class="mt-0 mx-3 m-b2">
+              <p class="mt-0 mx-3 mb-2">
                 &#169; Just a Bear
               </p>
             </footer>

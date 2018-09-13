@@ -1,14 +1,26 @@
+@media(max-width: 1200px){
+
+}
+
+
 @media (max-width: 992px){
-  .container{
-    max-width:100%;
-  }
 
   .splash h1 {
     font-size: 7em;
   }
+
+  .navbar-collapse {
+    margin: 0px 60% 0 13px;
+  }
 }
 
 @media (max-width: 768px){
+
+
+  .navbar-collapse {
+    margin: 0px 50% 0 13px;
+  }
+
   .splash h1 {
     font-size: 5.5em;
     padding-top: 30%;
@@ -23,11 +35,21 @@
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 2em;
   }
 }
 
 @media (max-width: 567px){
+/*  .splash {
+    height: 104vh;
+  }
+  .live {
+    height: 104vh;
+  }
+  .kontakt {
+    height: 104vh;
+  }*/
+
   .splash h1 {
     font-size: 4.5em;
   }
@@ -37,7 +59,7 @@
     font-size: 20px;
   }
 
-  .live {
-    font-size: 0.9em;
+  footer {
+    font-size: .9em;
   }
 }
