@@ -79,7 +79,7 @@ h2 {
 
 .splash {
   height: 100vh;
-  background: url(../images/halbfinale4.jpg) center center no-repeat #7f553d;
+  background: url(../images/landesfinale3.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -130,7 +130,7 @@ h2 {
 }
 
 .media {
-  background: url(../images/background-live.jpg) center center no-repeat #7f553d;
+  background: url(../images/landesfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -139,14 +139,50 @@ h2 {
   margin-top: 5%;
 }
 
+.live {
+  min-height: 100vh;
+  background: url(../images/halbfinale4.jpg) center center no-repeat #7f553d;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .backdrop {
   background-color: rgba(255, 255, 255, .8);
   color: black;
 }
 
+.live .table td {
+  padding: .2rem 0rem;
+  font-size: 1em;
+}
+
+.live td:first-child,
+.live td:last-child {
+  width: 50px;
+}
+
+.table td {
+  border-top: 0;
+}
+
+.live {
+  font-family: 'Montserrat';
+  font-size: 1em;
+}
+
+.live .font-italic {
+  font-size: .8em;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, .3);
+  font-size: 1em;
+}
+
 .kontakt {
   min-height: 100vh;
-  background: url(../images/background-media.jpg) center center no-repeat #7f553d;
+  background: url(../images/halbfinale1.jpg) center center no-repeat #7f553d;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Montserrat';
